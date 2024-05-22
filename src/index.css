@@ -34,9 +34,20 @@
   src: url(../public/fonts/MPLUSRounded1c-Black.ttf);
 }
 
+:root {
+  --primary-color: #bb2c2b; /* Красный цвет для акцентов */
+  --secondary-color: #8f2e2b; /* Серый цвет для фона */
+  --text-color: #000000; /* Белый цвет для текста */
+  --background-color: #b6b5b5; /* Светлый серый для фона */
+  --highlight-color: #f6f5f5; /* Дополнительный цвет для выделения */
+}
+
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
 }
 
 body {
@@ -45,7 +56,18 @@ body {
   font-weight: 400;
 }
 
-bb2c2b red 
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+/* bb2c2b red 
 8f2e2b dark red
 b6b5b5 gray
-f6f5f5 light gray
+f6f5f5 light gray */
+
+/* X-Small — ширина менее 576 пикселей;
+Small — не менее 576 пикселей;
+Medium — не менее 768 пикселей;
+Large — не менее 992 пикселей;
+Extra large — не менее 1200 пикселей;
+Extra extra large — не менее 1400 пикселей.  */
