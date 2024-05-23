@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/InsurancePortal/static/css/main.0f617555.css",
+    "main.js": "/InsurancePortal/static/js/main.457975d7.js",
+    "static/media/MPLUSRounded1c-Black.ttf": "/InsurancePortal/static/media/MPLUSRounded1c-Black.82278fcd8098e1676253.ttf",
+    "static/media/MPLUSRounded1c-Bold.ttf": "/InsurancePortal/static/media/MPLUSRounded1c-Bold.3af364429e77ffd9fb2d.ttf",
+    "static/media/MPLUSRounded1c-Medium.ttf": "/InsurancePortal/static/media/MPLUSRounded1c-Medium.84b104e7bd5d1ad98d5d.ttf",
+    "static/media/MPLUSRounded1c-Regular.ttf": "/InsurancePortal/static/media/MPLUSRounded1c-Regular.a6e3080ac0a8e6ca12b4.ttf",
+    "static/media/MPLUSRounded1c-Light.ttf": "/InsurancePortal/static/media/MPLUSRounded1c-Light.e8acf155955b51775be3.ttf",
+    "static/media/MPLUSRounded1c-Thin.ttf": "/InsurancePortal/static/media/MPLUSRounded1c-Thin.96bcbe5cbdb54ec3378e.ttf",
+    "static/media/logo.png": "/InsurancePortal/static/media/logo.45279d809133062b85f4.png",
+    "static/media/logo-text.png": "/InsurancePortal/static/media/logo-text.b62dcb0cb6908426a0df.png",
+    "index.html": "/InsurancePortal/index.html",
+    "main.0f617555.css.map": "/InsurancePortal/static/css/main.0f617555.css.map",
+    "main.457975d7.js.map": "/InsurancePortal/static/js/main.457975d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f617555.css",
+    "static/js/main.457975d7.js"
+  ]
+}
