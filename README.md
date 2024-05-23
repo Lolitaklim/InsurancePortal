@@ -2,7 +2,7 @@
 
 для страховой компании в-в-с.рф
 
-демо: https://lolitaklim.github.io/
+демо: https://lolitaklim.github.io/InsurancePortal/
 
 # Getting Started with Create React App
 
