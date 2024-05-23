@@ -1,3 +1,66 @@
 .home {
-   
+}
+
+.content {
+  position: relative;
+  height: 800px;
+}
+
+.title {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  color: black;
+}
+
+.main_text {
+  position: absolute;
+  top: 250px;
+  right: 50px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 700px;
+}
+
+.buttons {
+  position: absolute;
+  -webkit-box-shadow: 2px 2px 4px 2px rgba(10, 0, 0, 0.49);
+  -moz-box-shadow: 2px 2px 4px 2px rgba(10, 0, 0, 0.49);
+  -o-box-shadow: 2px 2px 4px 2px rgba(10, 0, 0, 0.49);
+  box-shadow: 2px 2px 4px 2px rgba(10, 0, 0, 0.49);
+  font-size: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.buttons:hover {
+  transform: translateY(-5px);
+}
+
+.button_service {
+  top: 350px;
+  right: 100px;
+  background: transparent;
+  border: 2px solid var(--secondary-color);
+  color: black;
+  padding: 5px;
+}
+
+.button_contacts:hover {
+  background: var(--primary-color);
+  transform: translateY(-5px);
+}
+
+.button_contacts {
+  top: 420px;
+  right: 100px;
+  background: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 7px;
+}
+
+.button_contacts:hover {
+  background: var(--primary-color);
 }
