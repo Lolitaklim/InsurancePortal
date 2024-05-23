@@ -39,7 +39,7 @@ const Header = () => {
     <header className={styles.header_container} id="header">
       <div className={`${styles.header} container`}>
         <Logo />
-        
+
         <nav
           className={`${styles.nav} ${isOpen ? styles.active : ''}`}
           ref={menuRef}
@@ -54,42 +54,67 @@ const Header = () => {
           <NavLink
             to="."
             end
-            className={styles.nav_item}
-            onClick={() => setItemId(0)}
+            className={({ isActive }) =>
+              isActive ? `${styles.nav_item} ${styles.active}` : styles.nav_item
+            }
+            onClick={() => {
+              setItemId(0)
+              setIsOpen(false)
+            }}
           >
             ГЛАВНАЯ
           </NavLink>
           <NavLink
             to="insurance"
-            className={styles.nav_item}
-            onClick={() => setItemId(1)}
+            className={({ isActive }) =>
+              isActive ? `${styles.nav_item} ${styles.active}` : styles.nav_item
+            }
+            onClick={() => {
+              setItemId(1)
+              setIsOpen(false)
+            }}
           >
             СТРАХОВАНИЕ
           </NavLink>
           <NavLink
             to="how-we-work"
-            className={styles.nav_item}
-            onClick={() => setItemId(2)}
+            className={({ isActive }) =>
+              isActive ? `${styles.nav_item} ${styles.active}` : styles.nav_item
+            }
+            onClick={() => {
+              setItemId(2)
+              setIsOpen(false)
+            }}
           >
             КАК РАБОТАЕМ
           </NavLink>
           <NavLink
             to="useful-info"
-            className={styles.nav_item}
-            onClick={() => setItemId(3)}
+            className={({ isActive }) =>
+              isActive ? `${styles.nav_item} ${styles.active}` : styles.nav_item
+            }
+            onClick={() => {
+              setItemId(3)
+              setIsOpen(false)
+            }}
           >
             ПОЛЕЗНОЕ
           </NavLink>
           <NavLink
             to="contacts"
-            className={styles.nav_item}
-            onClick={() => setItemId(4)}
+            className={({ isActive }) =>
+              isActive ? `${styles.nav_item} ${styles.active}` : styles.nav_item
+            }
+            onClick={() => {
+              setItemId(4)
+              setIsOpen(false)
+            }}
           >
             КОНТАКТЫ
           </NavLink>
         </nav>
         <div className={styles.mobile_menu}>
-          <span>МЕНЮ |</span>
+          <span className={styles.menu_text}>МЕНЮ |</span>
           <button
             className={styles.button_menu}
             onClick={() => setIsOpen(!isOpen)}

@@ -42,7 +42,6 @@
   --highlight-color: #f6f5f5; /* Дополнительный цвет для выделения */
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -60,6 +59,7 @@ body {
   max-width: 1400px;
   margin: auto;
 }
+
 /* bb2c2b red 
 8f2e2b dark red
 b6b5b5 gray
